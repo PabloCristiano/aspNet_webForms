@@ -34,3 +34,39 @@ C:\Users\Soft Tur\source\repos\Projeto\Projeto\obj\Debug\Projeto.csproj.CoreComp
 C:\Users\Soft Tur\source\repos\Projeto\Projeto\obj\Debug\Projeto.csproj.CopyComplete
 C:\Users\Soft Tur\source\repos\Projeto\Projeto\obj\Debug\Projeto.dll
 C:\Users\Soft Tur\source\repos\Projeto\Projeto\obj\Debug\Projeto.pdb
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\Projeto.dll.config
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\Projeto.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\Projeto.pdb
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\csc.exe
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\csc.exe.config
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\csc.rsp
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\csi.exe
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\csi.rsp
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\System.AppContext.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\System.Collections.Immutable.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\System.IO.FileSystem.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\System.Reflection.Metadata.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\vbc.exe
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\vbc.exe.config
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\vbc.rsp
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\VBCSCompiler.exe
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\roslyn\VBCSCompiler.exe.config
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\obj\Debug\Projeto.csproj.AssemblyReference.cache
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\obj\Debug\Projeto.csproj.CoreCompileInputs.cache
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\obj\Debug\Projeto.csproj.CopyComplete
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\obj\Debug\Projeto.dll
+C:\ProjetosWebForms\aspNet_webForms\Projeto\Projeto\obj\Debug\Projeto.pdb
