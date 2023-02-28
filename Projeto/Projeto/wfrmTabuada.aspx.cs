@@ -21,16 +21,34 @@ namespace Projeto
 
         protected void btExecutar_Click(object sender, EventArgs e)
         {
-            lbDados.Items.Clear();
+            //lbDados.Items.Clear();
             ListItem li = dlNumeros.SelectedItem;
             int n = Convert.ToInt32(li.Value);
             int t = 0;
-            for (int i = 2; i < 11; i++)
-            {
-                t = i * n;
-                lbDados.Items.Add(i.ToString() +"X"+n.ToString()+" = "+t.ToString());
-            }
+            //for (int i = 0; i < 11; i++)
+            //{
+            //    t = i * n;
+            //    lbDados.Items.Add(i.ToString() +"X"+n.ToString()+" = "+t.ToString());
+            //    tdDados.Rows[i].Cells[0].Text = n.ToString();
+            //    tdDados.Rows[i].Cells[4].Text = t.ToString();
+            //}
 
+            Table tabela = new Table();
+            for (int i = 0; i<= 10; i++)
+            {
+                TableRow linha = new TableRow();
+                //1 Linha
+                TableCell coluna = new TableCell();
+                coluna.Text = i.ToString() + "X" + n.ToString() + "="; 
+                linha.Cells.Add(coluna);
+                //2 linha
+                coluna = new TableCell();
+                t = i * n;
+                coluna.Text = t.ToString();
+                linha.Cells.Add(coluna);
+                tabela.Rows.Add(linha);
+            }
+            PlaceHolder1.Controls.Add(tabela);
         }
     }
 }

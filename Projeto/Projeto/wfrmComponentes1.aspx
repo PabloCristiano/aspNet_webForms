@@ -45,7 +45,7 @@
             <tr>
                 <td class="auto-style4">Site</td>
                 <td class="auto-style7">Endereço</td>
-                <td class="auto-style6">Opções</td>
+                <td class="auto-style6">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style9">
@@ -55,28 +55,25 @@
                     <asp:TextBox ID="TextEndereco" runat="server" Width="463px"></asp:TextBox>
                 </td>
                 <td class="auto-style11">
-                    <asp:Button ID="btInserir" runat="server" CssClass="auto-style3" OnClick="btInserir_Click" Text="Inserir Site" Width="225px" />
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">
-                    <asp:DropDownList ID="dSite" runat="server" Height="16px" Width="318px">
-                        <asp:ListItem></asp:ListItem>
-                        <asp:ListItem Value="1">Teste</asp:ListItem>
-                        <asp:ListItem Value="2">bbb</asp:ListItem>
-                    </asp:DropDownList>
-                </td>
-                <td class="auto-style8">
-                    <asp:ListBox ID="ListBoxEdereco" runat="server" Height="34px" Width="477px">
-                        <asp:ListItem>www.uol.com</asp:ListItem>
+                    <asp:ListBox ID="ListBoxEdereco" runat="server" Height="185px" Width="431px" SelectionMode="Multiple">
                     </asp:ListBox>
                 </td>
-                <td>
+                <td class="auto-style8">
+                    Opções:<br />
+                    <asp:Button ID="btInserir" runat="server" CssClass="auto-style3" OnClick="btInserir_Click" Text="Inserir Site" Width="225px" />
                     <asp:Button ID="btSelecionar" runat="server" OnClick="btSelecionar_Click" Text="Selecionar" Width="220px" />
                 </td>
+                <td>
+                    &nbsp;</td>
             </tr>
         </table>
         <div>
+                    <asp:DropDownList ID="dSite" runat="server" Height="16px" Width="318px" OnSelectedIndexChanged="dSite_SelectedIndexChanged">
+                    </asp:DropDownList>
         </div>
     </form>
 </body>

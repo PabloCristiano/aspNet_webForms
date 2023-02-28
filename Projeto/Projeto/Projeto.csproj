@@ -67,12 +67,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\agenda.mdf" />
+    <Content Include="App_Data\agenda_log.ldf">
+      <DependentUpon>agenda.mdf</DependentUpon>
+    </Content>
+    <Content Include="GridBusca.aspx" />
+    <Content Include="Imagens\0101.png" />
+    <Content Include="Imagens\download.png" />
     <Content Include="olaMundo.aspx" />
     <Content Include="Web.config" />
+    <Content Include="wfData.aspx" />
     <Content Include="wfrmComponentes1.aspx" />
+    <Content Include="wfrmCursos.aspx" />
+    <Content Include="wfrmDiasDeVida.aspx" />
+    <Content Include="wfrmParOuImparFatorial.aspx" />
     <Content Include="wfrmTabuada.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GridBusca.aspx.cs">
+      <DependentUpon>GridBusca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridBusca.aspx.designer.cs">
+      <DependentUpon>GridBusca.aspx</DependentUpon>
+    </Compile>
     <Compile Include="olaMundo.aspx.cs">
       <DependentUpon>olaMundo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -81,12 +99,40 @@
       <DependentUpon>olaMundo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wfData.aspx.cs">
+      <DependentUpon>wfData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfData.aspx.designer.cs">
+      <DependentUpon>wfData.aspx</DependentUpon>
+    </Compile>
     <Compile Include="wfrmComponentes1.aspx.cs">
       <DependentUpon>wfrmComponentes1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="wfrmComponentes1.aspx.designer.cs">
       <DependentUpon>wfrmComponentes1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrmCursos.aspx.cs">
+      <DependentUpon>wfrmCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmCursos.aspx.designer.cs">
+      <DependentUpon>wfrmCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrmDiasDeVida.aspx.cs">
+      <DependentUpon>wfrmDiasDeVida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmDiasDeVida.aspx.designer.cs">
+      <DependentUpon>wfrmDiasDeVida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfrmParOuImparFatorial.aspx.cs">
+      <DependentUpon>wfrmParOuImparFatorial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfrmParOuImparFatorial.aspx.designer.cs">
+      <DependentUpon>wfrmParOuImparFatorial.aspx</DependentUpon>
     </Compile>
     <Compile Include="wfrmTabuada.aspx.cs">
       <DependentUpon>wfrmTabuada.aspx</DependentUpon>
@@ -105,6 +151,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

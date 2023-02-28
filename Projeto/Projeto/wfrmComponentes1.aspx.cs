@@ -17,18 +17,40 @@ namespace Projeto
         protected void btInserir_Click(object sender, EventArgs e)
         {
             //dSite.Items.Add(TextSite.Text);
-            ListItem item = new ListItem(TextSite.Text, dSite.Items.Count.ToString());
-            dSite.Items.Add(item);
-            TextSite.Text = "";
-            item = new ListItem(TextEndereco.Text, ListBoxEdereco.Items.Count.ToString());
+            ListItem item = new ListItem(TextSite.Text,TextEndereco.Text);
             ListBoxEdereco.Items.Add(item);
             TextEndereco.Text = "";
+            TextSite.Text = "";
         }
 
         protected void btSelecionar_Click(object sender, EventArgs e)
         {
-            TextSite.Text = dSite.Text;
-            TextEndereco.Text = ListBoxEdereco.Text;
+            dSite.Items.Clear();
+            ListItem li;
+            for (int i = 0; i < ListBoxEdereco.Items.Count; i++)
+            {
+                li = ListBoxEdereco.Items[i];
+                if (li.Selected)
+                {
+                    li.Selected = false;
+                    dSite.Items.Add(li);
+                }
+            }
+
+            /*
+            foreach (ListItem item in ListBoxEdereco.Items)
+            {
+                if (item.Selected)
+                {
+                    item.Selected = false;
+                    dSite.Items.Add(item);
+                }
+            }
+            */
+        }
+
+        protected void dSite_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

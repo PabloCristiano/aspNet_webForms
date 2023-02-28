@@ -42,24 +42,6 @@ namespace Projeto
         protected global::System.Web.UI.WebControls.TextBox TextEndereco;
 
         /// <summary>
-        /// btInserir control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btInserir;
-
-        /// <summary>
-        /// dSite control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dSite;
-
-        /// <summary>
         /// ListBoxEdereco control.
         /// </summary>
         /// <remarks>
@@ -69,6 +51,15 @@ namespace Projeto
         protected global::System.Web.UI.WebControls.ListBox ListBoxEdereco;
 
         /// <summary>
+        /// btInserir control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btInserir;
+
+        /// <summary>
         /// btSelecionar control.
         /// </summary>
         /// <remarks>
@@ -76,5 +67,14 @@ namespace Projeto
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btSelecionar;
+
+        /// <summary>
+        /// dSite control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList dSite;
     }
 }
